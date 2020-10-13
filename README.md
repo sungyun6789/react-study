@@ -2,7 +2,7 @@
 
 ## 10/7
 ### 1. JSX
-### 2. Props State
+### 2. Props State  
 
 ## 10/11
 ### 3. LifeCycle API

@@ -1,10 +1,24 @@
 import React from 'react';
-import Users from './component/Axios';
+import { Route, Link } from 'react-router-dom';
+import Home from './component/Home';
+import About from './component/About';
+import PageLocation from './PageLocation';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <Users />
+    <div>
+      <ul>
+        <li>
+          <Link to="/">홈</Link>
+        </li>
+        <li>
+          <Link to="/about">소개</Link>
+        </li>
+      </ul>
+      <hr />
+      <Route path="/" exact={true} component={Home} />
+      <Route path="/about" component={About} />
+      <PageLocation />
     </div>
   );
 }

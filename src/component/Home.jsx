@@ -4,9 +4,9 @@ const Home = () => {
     return (
         <div>
             <h1>홈</h1>
-            <p>이곳은 홈이다. 가장 먼저 보이는 페이지</p>
+            <p>리액트 스터디를 통해 배운 내용을 정리한 곳 입니다.</p>
         </div>
     );
 };
 
-export default Home;
+export default Home; 

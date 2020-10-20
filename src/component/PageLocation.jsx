@@ -3,12 +3,9 @@ import { useLocation } from 'react-router-dom';
 
 const PageLocation = () => {
     const location = useLocation();
-
-    console.log(location);
-
     return (
         <div>
-            {location}
+            현재 주소: {location.pathname}
         </div>
     )
 }

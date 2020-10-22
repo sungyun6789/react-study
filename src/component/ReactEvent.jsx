@@ -5,6 +5,7 @@ const ReactEvent = () => {
 
     return (
         <div>
+            <h1>Event</h1><br />
             <button onClick={() => setNumber(number + 1)}>+1</button>
             <button onClick={() => setNumber(number - 1)}>-1</button>
             <br />

@@ -1,8 +1,15 @@
 import React from 'react';
+import Head from './airbnb/component/Header';
+import Menu from './airbnb/component/Menu';
+import AirbnbBody from './airbnb/component/Body';
 
 const App = () => {
   return (
-    <div>안녕</div>
+    <div>
+      <Head />
+      <Menu />
+      <AirbnbBody></AirbnbBody>
+    </div>
   );
 }
 

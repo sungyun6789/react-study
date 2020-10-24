@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter } from 'react-router-dom'; // * BrowserRouter 불러오기
+import { BrowserRouter } from 'react-router-dom';
 import App from '../App';
 
 ReactDOM.render(

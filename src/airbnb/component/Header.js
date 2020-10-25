@@ -1,5 +1,5 @@
 import React from 'react';
-import HeadStyle from '../styledcomponent/HeaderStyle';
+import HeadStyle from '../style/HeaderStyle';
 
 const Head = () => {
     return (

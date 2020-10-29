@@ -6,7 +6,11 @@ const MenuStyle = styled.div`
     background-image:url(${moon4});
     background-size: cover;
     width: 1905px;
-    height: 758px;
+    height: 805px;      /* 758 */
+
+    button {
+        cursor: pointer;
+    }
 
     b {
         font-size: 24px;
@@ -16,6 +20,7 @@ const MenuStyle = styled.div`
     }
 
     span {
+        cursor: pointer;
         margin-right: 28px;
         :hover {
             text-decoration: underline;
@@ -101,6 +106,10 @@ const MenuStyle = styled.div`
         border-radius: 0.5rem;
         border: none;
         font-size: 14px;
+
+        :hover {
+            background: #bdbdbd; 
+        }
     }
 
     .host {

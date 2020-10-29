@@ -15,7 +15,7 @@ const Menu = () => {
     }
 
     const nearClick = () => {
-
+        window.open('https://www.airbnb.co.kr/s/homes?location_search=NEARBY&search_type=HOMEPAGE_BANNER');
     }
 
     return (

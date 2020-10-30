@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const BodyStyle = styled.div`
     background: white;
-    height: 463px;
+    height: 450px;
     margin-left: 70px;
 
     p {
@@ -20,7 +20,7 @@ const BodyStyle = styled.div`
         width: 520px;
         height: 347px;
         line-height: 463px;
-        border-radius: 10px 10px 0px 0px;
+        border-radius: 15px 15px 0px 0px;
     }
 
     .item-container {
@@ -34,7 +34,7 @@ const BodyStyle = styled.div`
 
     .imagebox {
         background: white;
-        border-radius: 10px;
+        border-radius: 15px;
         box-shadow: 10px red;
         box-shadow: 10px black;
         box-shadow: 2px 2px 2px 2px #efebe9;
@@ -43,7 +43,7 @@ const BodyStyle = styled.div`
     }
 
     .body-container {
-        margin-top: 30px;
+        margin-top: 50px;
         margin-left: 100px;
     }
 `;

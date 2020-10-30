@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import moon4 from '../img/moon4.jpg';
-import moonimg from '../img/moonimg.jpg';
+import globe from '../img/globe.png';
 
 const MenuStyle = styled.div`
     background-image:url(${moon4});
@@ -22,9 +22,7 @@ const MenuStyle = styled.div`
     span {
         cursor: pointer;
         margin-right: 28px;
-        :hover {
-            text-decoration: underline;
-        }
+
     }
 
     a {
@@ -35,7 +33,7 @@ const MenuStyle = styled.div`
     .online {
         text-decoration: none;
         color: white;
-        margin-left: 3px;
+        margin-left: 8px;
     }
 
     .homelogo {
@@ -48,12 +46,10 @@ const MenuStyle = styled.div`
     }
 
     .menu {
-        text-align: center;
         color: white;
-
         margin-right: 1px;
-        margin-top: -1.7%;
         font-weight: 300;
+        padding-top: 30px;
     }
 
     .user {
@@ -71,10 +67,11 @@ const MenuStyle = styled.div`
     .firsttext {
         font-weight: 500;
         font-size: 40px;
-        margin-top: 280px;
+        margin-top: 300px;
         margin-left: 150px;
         color: pink;
     }
+
     .secondtext {
         margin-top: -30px;
         margin-left: 150px;
@@ -96,6 +93,7 @@ const MenuStyle = styled.div`
     }
 
     .nearButton {
+        display: flex;
         width: 160px;
         margin-left: 150px;
         font-weight: 500;
@@ -104,8 +102,8 @@ const MenuStyle = styled.div`
         padding-top: 10px;
         padding-bottom: 10px;
         border-radius: 0.5rem;
-        border: none;
         font-size: 14px;
+        border: none;
 
         :hover {
             background: #bdbdbd; 
@@ -113,19 +111,34 @@ const MenuStyle = styled.div`
     }
 
     .host {
-        position: absolute;
-        left: 1532px;
+        margin-left: 480px;
         font-size: 15px;
+
+        :hover {
+            border-radius: 1rem;
+            background: #C1C1C1;
+            padding: 5px;
+        }
     }
 
     .hostButton {
         width: 26px;
         height: 26px;
-        background-image:url(${moonimg});
+        background-image:url(${globe});
+        border-radius: 1rem;
         background-size: cover;
         position: absolute;
         top: 85px;
         left: 1621px;
+    }
+
+    .logofixed {
+        position: fixed;
+    }
+
+    .start {
+        margin-left: 855px;
+        margin-right: 30px;
     }
 
 `;

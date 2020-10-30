@@ -2,9 +2,11 @@ import React from 'react';
 import SecondBodyStyle from '../style/SecondBodyStyle';
 
 const SecondBody = () => {
-    const onClick = () => {
-        window.open('https://www.airbnb.co.kr/s/experiences/online');
-    }
+    const onClick = () => window.open('https://www.airbnb.co.kr/s/experiences/online');
+    const chinaUrl = () => window.open('https://www.airbnb.co.kr/experiences/1715106');
+    const artUrl = () => window.open('https://www.airbnb.co.kr/experiences/1755988');
+    const magicUrl = () => window.open('https://www.airbnb.co.kr/experiences/1661222');
+    const genderUrl = () => window.open('https://www.airbnb.co.kr/experiences/1785860');
 
     return (
         <SecondBodyStyle>
@@ -18,22 +20,22 @@ const SecondBody = () => {
                 <button onClick={onClick}>모두 둘러보기</button>
             </div>
 
-            <div className='item-container1'>
+            <div className='item-container1' onClick={chinaUrl}>
                 <div className='image1' />
                 <div className='text1'>상하이 샤오롱바오 만드는 법 배우기</div>
             </div>
 
-            <div className='item-container2'>
+            <div className='item-container2' onClick={artUrl}>
                 <div className='image2'></div>
                 <div className='text2'>그라피티와 거리 예술에 반영된 여성상 탐구</div>
             </div>
 
-            <div className='item-container3'>
+            <div className='item-container3' onClick={magicUrl}>
                 <div className='image3' />
                 <div className='text3'>뉴욕 마술사와 백스테이지 구경하기</div>
             </div>
 
-            <div className='item-container4'>
+            <div className='item-container4' onClick={genderUrl}>
                 <div className='image4' />
                 <div className='text4'>수제 칵테일을 마시며 젠더에 관해 토론하기</div>
             </div>

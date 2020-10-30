@@ -7,7 +7,7 @@ import s_image4 from '../img/s_image4.jpg';
 const SecondBodyStyle = styled.div`
     background: black;
     color: white;
-    height: 1150px;
+    height: 1100px;
 
     b {
         font-size: 30px;
@@ -16,7 +16,7 @@ const SecondBodyStyle = styled.div`
     button {
         cursor: pointer;
         position: absolute;
-        top: 1400px;
+        top: 1440px;
         left: 1650px;
         padding: 3px;
         width: 107px;
@@ -68,71 +68,77 @@ const SecondBodyStyle = styled.div`
         background-image:url(${s_image4});
         background-size: cover;
         width: 800px;
-        height: 392px;
+        height: 335px;
         position: absolute;
+        border-radius: 1rem 1rem 0 0;
     }
 
     .item-container1 {
+        cursor: pointer;
         margin-top: 30px;
         margin-left: 160px;
         border-radius: 1rem;
         width: 784px;
         height: 820px;
-        background: #2a2b27;
+        background: #212121;
     }
 
     .item-container2 {
+        cursor: pointer;
         border-radius: 1rem;
         width: 392px;
         height: 400px;
         position: absolute;
         left: 980px;
-        top: 1568px;
+        top: 1575px;
         margin-bottom: 100px;
         margin-left: -20px;
-        background: #2a2b27;
+        background: #212121;
     }
 
     .item-container3 {
+        cursor: pointer;
         border-radius: 1rem;
         width: 392px;
         height: 400px;
         position: absolute;
         left: 1390px;
-        top: 1568px;
-        background: #2a2b27;
+        top: 1575px;
+        background: #212121;
         margin-left: -20px;
     }
 
     .item-container4 {
+        cursor: pointer;
         border-radius: 1rem;
-        width: 784px;
-        height: 400px;
+        width: 800px;
+        height: 405px;
         position: absolute;
         left: 960px;
-        top: 1975px;
-        background: #2a2b27;
-        padding-bottom: 50px;
+        top: 1982px;
+        background: #212121;
+        margin-top: 10px;
+        
     }
 
     .text1 {
-        margin-top: 20px;
+        margin-top: 15px;
         margin-left: 15px;
     }
 
     .text2 {
         margin-top: 350px;
-        margin-left: 10px;
+        margin-left: 15px;
     }
 
     .text3 {
         margin-top: 350px;
-        margin-left: 10px;
+        margin-left: 15px;
     }
 
     .text4 {
-        margin-top: 400px;
-        margin-left: 10px;
+        margin-top: 350px;
+        margin-left: 15px;
     }
 `;
 

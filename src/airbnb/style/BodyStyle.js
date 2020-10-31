@@ -1,9 +1,11 @@
 import styled from 'styled-components';
 
 const BodyStyle = styled.div`
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
     background: white;
     height: 450px;
-    margin-left: 70px;
 
     p {
         margin-top: 7px;
@@ -44,7 +46,6 @@ const BodyStyle = styled.div`
 
     .body-container {
         margin-top: 50px;
-        margin-left: 100px;
     }
 `;
 

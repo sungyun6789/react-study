@@ -20,7 +20,7 @@ const Menu = () => {
 
     return (
         <MenuStyle>
-            <div className='head'>
+            <div>
                 <div className='logofixed'><a href='#'><AiOutlineHome className='homelogo' onClick={homeClick} /><b>airbnb</b></a></div>
                 <div className='menu'>
                     <span className='start'>숙소</span><span>체험</span><a href='https://www.airbnb.co.kr/s/experiences/online' className='online'>온라인 체험</a>

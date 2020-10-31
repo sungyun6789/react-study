@@ -13,7 +13,7 @@ const Footer = () => {
         <FooterStyle>
             <div>
                 <footer>
-                    <div>
+                    <div className='footerDiv'>
                         <section className='firstSection'>
                             <h4>소개</h4>
                             <ul>

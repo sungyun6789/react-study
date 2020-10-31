@@ -1,8 +1,9 @@
 import styled from 'styled-components';
 
 const BoxStyle = styled.div`
+    display: flex;
     .box {
-    height: 20px;   /* 54 */
+    height: 68px;   /* 54 */
 }
 `;
 

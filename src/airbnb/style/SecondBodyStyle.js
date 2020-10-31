@@ -5,6 +5,7 @@ import s_image3 from '../img/s_image3.jpg';
 import s_image4 from '../img/s_image4.jpg';
 
 const SecondBodyStyle = styled.div`
+    display: flex;
     background: black;
     color: white;
     height: 1100px;
@@ -69,13 +70,14 @@ const SecondBodyStyle = styled.div`
         background-size: cover;
         width: 800px;
         height: 335px;
-        position: absolute;
         border-radius: 1rem 1rem 0 0;
     }
 
     .item-container1 {
+        display: flex;
         cursor: pointer;
-        margin-top: 30px;
+        position: absolute;
+        margin-top: 200px;
         margin-left: 160px;
         border-radius: 1rem;
         width: 784px;
@@ -84,46 +86,50 @@ const SecondBodyStyle = styled.div`
     }
 
     .item-container2 {
+        display: flex;
         cursor: pointer;
         border-radius: 1rem;
         width: 392px;
         height: 400px;
         position: absolute;
         left: 980px;
-        top: 1575px;
+        top: 1580px;
         margin-bottom: 100px;
         margin-left: -20px;
         background: #212121;
     }
 
     .item-container3 {
+        display: flex;
         cursor: pointer;
         border-radius: 1rem;
         width: 392px;
         height: 400px;
         position: absolute;
         left: 1390px;
-        top: 1575px;
+        top: 1580px;
         background: #212121;
         margin-left: -20px;
     }
 
     .item-container4 {
+        display: flex;
         cursor: pointer;
         border-radius: 1rem;
         width: 800px;
         height: 405px;
         position: absolute;
         left: 960px;
-        top: 1982px;
+        top: 1987px;
         background: #212121;
         margin-top: 10px;
         
     }
 
     .text1 {
-        margin-top: 15px;
-        margin-left: 15px;
+        margin-top: 770px;
+        margin-left: 20px;
+        position: absolute;
     }
 
     .text2 {
@@ -139,6 +145,7 @@ const SecondBodyStyle = styled.div`
     .text4 {
         margin-top: 350px;
         margin-left: 15px;
+        position: absolute;
     }
 `;
 

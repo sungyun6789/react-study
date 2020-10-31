@@ -22,7 +22,6 @@ const MenuStyle = styled.div`
     span {
         cursor: pointer;
         margin-right: 28px;
-
     }
 
     a {
@@ -47,21 +46,15 @@ const MenuStyle = styled.div`
 
     .menu {
         color: white;
-        margin-right: 1px;
         font-weight: 300;
         padding-top: 30px;
+        display: flex;
+        justify-content: center;
     }
 
     .user {
         width: 100%;
         height: 100%;
-        text-align: center;
-    }
-
-    .head {
-        margin-left: 0%;
-        margin-right: 0%;
-        font-size: 16px;
     }
 
     .firsttext {
@@ -80,6 +73,7 @@ const MenuStyle = styled.div`
     }
 
     .userButton {
+        display: flex;
         margin-left: 1000px;
         margin-right: 70px;
         width: 79px;
@@ -111,8 +105,10 @@ const MenuStyle = styled.div`
     }
 
     .host {
-        margin-left: 480px;
+        display: flex;
+        margin-left: 25%;
         font-size: 15px;
+        position: fixed;
 
         :hover {
             border-radius: 1rem;
@@ -122,8 +118,9 @@ const MenuStyle = styled.div`
     }
 
     .hostButton {
-        width: 26px;
-        height: 26px;
+        display: flex;
+        width: 25px;
+        height: 25px;
         background-image:url(${globe});
         border-radius: 1rem;
         background-size: cover;
@@ -137,8 +134,8 @@ const MenuStyle = styled.div`
     }
 
     .start {
-        margin-left: 855px;
-        margin-right: 30px;
+        display: flex;
+        justify-content: center;
     }
 
 `;

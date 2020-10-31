@@ -9,11 +9,12 @@ const FooterStyle = styled.div`
     }
     
     section {
+        justify-content: space-around;
+        align-items: flex-start;
         margin-top: 30px;
         font-size: 14px;
         width: 406px;
         height: 305px;
-        float: left;
     }
 
     ul {
@@ -29,13 +30,14 @@ const FooterStyle = styled.div`
     }
     
     hr {
-        width: 1580px;
+        width: 1600px;
         border: 1px solid #f5f5f5;
+        margin-top: 65px;
     }
 
     p {
+        margin-left: 150px;
         font-size: 14px;
-        margin-left: 160px;
         margin-top: 20px;
     }
 
@@ -45,10 +47,6 @@ const FooterStyle = styled.div`
 
     .firstSection {
         margin-left: 120px;
-    }
-
-    .copyright {
-        padding-top: 400px;
     }
 
     .korea {
@@ -75,6 +73,10 @@ const FooterStyle = styled.div`
             width: 18px;
             height: 18px;
         }
+    }
+
+    .footerDiv {
+        display: flex;
     }
 
     

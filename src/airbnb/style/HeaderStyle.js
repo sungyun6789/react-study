@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 const HeadStyle = styled.div`
+    display: flex;
+    
     div{
         width: 100%;
         height: 58px;

@@ -4,7 +4,7 @@ import BoxStyle from '../style/BoxStyle';
 const Box = () => {
     return (
         <BoxStyle>
-            <div className='box'>빈 박스</div>
+            <div className='box'></div>
         </BoxStyle>
     );
 }

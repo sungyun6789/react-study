@@ -12,121 +12,119 @@ const Footer = () => {
     return (
         <FooterStyle>
             <div>
-                <footer>
-                    <div className='footerDiv'>
-                        <section className='firstSection'>
-                            <h4>소개</h4>
-                            <ul>
-                                <li>
-                                    <a>에어비앤비 이용 방법</a>
-                                </li>
-                                <li>
-                                    <a>뉴스룸</a>
-                                </li>
-                                <li>
-                                    <a>에어비앤비 플러스</a>
-                                </li>
-                                <li>
-                                    <a>에어비앤비 Luxe</a>
-                                </li>
-                                <li>
-                                    <a>호텔투나잇</a>
-                                </li>
-                                <li>
-                                    <a>에어비앤비 비즈니스 프로그램</a>
-                                </li>
-                                <li>
-                                    <a>올림픽</a>
-                                </li>
-                                <li>
-                                    <a>채용정보</a>
-                                </li>
-                            </ul>
-                        </section>
+                <div className='footerDiv'>
+                    <section className='firstSection'>
+                        <h4>소개</h4>
+                        <ul>
+                            <li>
+                                <a>에어비앤비 이용 방법</a>
+                            </li>
+                            <li>
+                                <a>뉴스룸</a>
+                            </li>
+                            <li>
+                                <a>에어비앤비 플러스</a>
+                            </li>
+                            <li>
+                                <a>에어비앤비 Luxe</a>
+                            </li>
+                            <li>
+                                <a>호텔투나잇</a>
+                            </li>
+                            <li>
+                                <a>에어비앤비 비즈니스 프로그램</a>
+                            </li>
+                            <li>
+                                <a>올림픽</a>
+                            </li>
+                            <li>
+                                <a>채용정보</a>
+                            </li>
+                        </ul>
+                    </section>
 
-                        <section>
-                            <h4>커뮤니티</h4>
-                            <ul>
-                                <li>
-                                    <a>다양성 및 소속감</a>
-                                </li>
+                    <section>
+                        <h4>커뮤니티</h4>
+                        <ul>
+                            <li>
+                                <a>다양성 및 소속감</a>
+                            </li>
 
-                                <li>
-                                    <a>접근성</a>
-                                </li>
+                            <li>
+                                <a>접근성</a>
+                            </li>
 
-                                <li>
-                                    <a>에어비앤비 어소시에이트</a>
-                                </li>
+                            <li>
+                                <a>에어비앤비 어소시에이트</a>
+                            </li>
 
-                                <li>
-                                    <a>구호 인력을 위한 숙소</a>
-                                </li>
+                            <li>
+                                <a>구호 인력을 위한 숙소</a>
+                            </li>
 
-                                <li>
-                                    <a>친구 초대하기</a>
-                                </li>
-                            </ul>
-                        </section>
+                            <li>
+                                <a>친구 초대하기</a>
+                            </li>
+                        </ul>
+                    </section>
 
-                        <section>
-                            <h4>호스팅하기</h4>
-                            <ul>
-                                <li>
-                                    <a>숙소 호스팅</a>
-                                </li>
+                    <section>
+                        <h4>호스팅하기</h4>
+                        <ul>
+                            <li>
+                                <a>숙소 호스팅</a>
+                            </li>
 
-                                <li>
-                                    <a>온라인 체험 호스팅하기</a>
-                                </li>
+                            <li>
+                                <a>온라인 체험 호스팅하기</a>
+                            </li>
 
-                                <li>
-                                    <a>체험 호스팅하기</a>
-                                </li>
+                            <li>
+                                <a>체험 호스팅하기</a>
+                            </li>
 
-                                <li>
-                                    <a>책임감 있는 호스팅</a>
-                                </li>
+                            <li>
+                                <a>책임감 있는 호스팅</a>
+                            </li>
 
-                                <li>
-                                    <a>Open Homes</a>
-                                </li>
+                            <li>
+                                <a>Open Homes</a>
+                            </li>
 
-                                <li>
-                                    <a>자료 센터</a>
-                                </li>
+                            <li>
+                                <a>자료 센터</a>
+                            </li>
 
-                                <li>
-                                    <a>커뮤니티 센터</a>
-                                </li>
-                            </ul>
-                        </section>
+                            <li>
+                                <a>커뮤니티 센터</a>
+                            </li>
+                        </ul>
+                    </section>
 
-                        <section>
-                            <h4>에어비앤비 지원</h4>
-                            <ul>
-                                <li>
-                                    <a>에어비앤비의 코로나19 대응 방안</a>
-                                </li>
-                                <li>
-                                    <a>도움말 센터</a>
-                                </li>
+                    <section>
+                        <h4>에어비앤비 지원</h4>
+                        <ul>
+                            <li>
+                                <a>에어비앤비의 코로나19 대응 방안</a>
+                            </li>
+                            <li>
+                                <a>도움말 센터</a>
+                            </li>
 
-                                <li>
-                                    <a>예약 취소 옵션</a>
-                                </li>
+                            <li>
+                                <a>예약 취소 옵션</a>
+                            </li>
 
-                                <li>
-                                    <a>에어비앤비 이웃 민원 지원</a>
-                                </li>
+                            <li>
+                                <a>에어비앤비 이웃 민원 지원</a>
+                            </li>
 
-                                <li>
-                                    <a>신뢰와 안전</a>
-                                </li>
-                            </ul>
-                        </section>
-                    </div>
-                </footer>
+                            <li>
+                                <a>신뢰와 안전</a>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
             </div>
             <div className='copyright'>
                 <hr />

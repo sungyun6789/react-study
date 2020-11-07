@@ -1,4 +1,3 @@
-import React from 'react';
 import { AiOutlineHome } from 'react-icons/ai';
 import { CgUserList } from 'react-icons/cg';
 import styled from 'styled-components';
@@ -142,51 +141,3 @@ const NearButton = styled.button`
         background: #bdbdbd;
     }
 `;
-
-const MenuBlockStyle = () => {
-
-    const homeClick = () => {
-        window.scrollTo(0, 0);
-    }
-
-    const nearClick = () => {
-        window.open('https://www.airbnb.co.kr/s/homes?location_search=NEARBY&search_type=HOMEPAGE_BANNER');
-    }
-
-    return (
-        <MainBackGround>
-            <LogoFixed>
-                <Homelogo onClick={homeClick}>
-                    <AiOutlineHome />
-                </Homelogo>
-                <b>airbnb</b>
-            </LogoFixed>
-            <Menu>
-                <Rooms>
-                    <span>숙소</span><span>체험</span>
-                    <Online><a href='https://www.airbnb.co.kr/s/experiences/online'>온라인 체험</a></Online>
-                </Rooms>
-                <div><Host><a href='https://www.airbnb.co.kr/host/homes'>호스트 되기</a></Host></div>
-                <HostButton />
-
-                <UserButton>
-                    <User>
-                        <CgUserList></CgUserList>
-                    </User>
-                </UserButton>
-
-            </Menu>
-            <FirstText>
-                이제 여행은<br />가까운 곳에서.
-            </FirstText>
-
-            <SecondText>
-                새로운 곳에서 머물러보세요. 직접 살아보거나, 업무를<br />
-                보거나, 휴식을 할 수 있는 가까운 숙소를 찾아보세요.
-            </SecondText>
-            <NearButton onClick={nearClick}>가까운 여행지 둘러보기</NearButton>
-        </MainBackGround >
-    );
-};
-
-export default MenuBlockStyle;

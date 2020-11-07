@@ -7,6 +7,7 @@ import instagram from '../img/instagram.png';
 import naverblog from '../img/naverblog.png';
 import naverpost from '../img/naverpost.png';
 
+/*
 import FooterStyle from '../style/FooterStyle';
 import FooterDiv from '../style/FooterStyle';
 import FirstSection from '../style/FooterStyle';
@@ -15,7 +16,90 @@ import KoreaSpan from '../style/FooterStyle';
 import Won from '../style/FooterStyle';
 import WonSpan from '../style/FooterStyle';
 import RightFooter from '../style/FooterStyle';
+*/
 
+import styled from 'styled-components';
+
+
+const FooterStyle = styled.div`
+    height: 470px;
+
+    img {
+        width: 15px;
+        height: 15px;
+    }
+    
+    section {
+        justify-content: space-around;
+        align-items: flex-start;
+        margin-top: 30px;
+        font-size: 14px;
+        width: 406px;
+        height: 305px;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    li {
+        margin-bottom: 15px;
+    }
+
+    h4 {
+        margin-left: 40px;
+    }
+    
+    hr {
+        width: 1600px;
+        border: 1px solid #f5f5f5;
+        margin-top: 65px;
+    }
+
+    p {
+        margin-left: 150px;
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    span {
+        margin-left: 10px;
+    }
+`;
+
+const FirstSection = styled.section`
+    margin-left: 120px;
+`;
+
+const Korea = styled.img`
+    margin-left: 550px;
+`;
+
+const KoreaSpan = styled.span`
+    text-decoration: underline;
+`;
+
+const Won = styled.img`
+    margin-left: 15px;
+`;
+
+const WonSpan = styled.span`
+    text-decoration: underline;
+`;
+
+const RightFooter = styled.span`
+    margin-left: 40px;
+
+    img {
+        margin-left: 22px;
+        width: 18px;
+        height: 18px;
+    }
+`;
+
+const FooterDiv = styled.div`
+    display: flex;
+`;
 
 const Footer = () => {
     return (
